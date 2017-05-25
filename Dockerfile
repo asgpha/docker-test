@@ -1,7 +1,6 @@
 FROM centos
 
-
-RUN yum update -y && yum install -y nginx
+RUN yum install -y nginx
 
 EXPOSE 80
 
